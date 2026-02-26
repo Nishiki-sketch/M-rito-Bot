@@ -1,3 +1,4 @@
+const mantener_vivo = require('./keep_alive.js');
 require("dotenv").config();
 const { Client, GatewayIntentBits } = require("discord.js");
 const fs = require("fs");
